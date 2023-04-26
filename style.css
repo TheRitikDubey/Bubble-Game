@@ -1,0 +1,46 @@
+#wrapper{
+    padding: 1rem;
+    margin: 1rem;
+}
+h1,p{
+    text-align: center;
+}
+.border{
+    border: 2px solid black;
+    padding: 2rem;
+}
+.dot1, .dot2, .dot3, .dot4{
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: black;
+}
+.flex1, .flex2, .flex3, .flex4 {
+    display: flex;
+    align-items: baseline;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.dot1{
+    background-color: rgba(255, 0, 0, 0.351);
+}
+.dot2{
+    background-color: rgba(172, 255, 47, 0.368);
+}
+.dot3{
+    background-color: rgba(0, 0, 255, 0.278);
+}
+.dot4{
+    background-color: rgba(255, 166, 0, 0.301);
+}
+img{
+    margin-top: -5px;
+}
+.btn{
+    margin-top: 1rem;
+    margin-left: calc(100% - 60%);
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 14px;
+}

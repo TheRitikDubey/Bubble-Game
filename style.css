@@ -7,7 +7,7 @@ h1,p{
 }
 .border{
     border: 2px solid black;
-    padding: 2rem;
+    padding: 1rem;
 }
 .dot1, .dot2, .dot3, .dot4{
     width: 70px;
@@ -40,7 +40,11 @@ img{
 .btn{
     margin-top: 1rem;
     margin-left: calc(100% - 60%);
-    background-color: blueviolet;
+    background-color: rgb(152, 73, 226);
     padding: 10px;
     border-radius: 14px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(214, 12, 12);
 }
